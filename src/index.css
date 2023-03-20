@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    background-color: black;
+    color: white;
+}
+.input-con{
+    margin-top: 3%;
+}
+.input{
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: none;
+    background-color: cadetblue;
+    padding: 0.5rem;
+}
+.info-container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.card{
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid white;
+    margin-bottom:2rem;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.card-img{
+    width: 12%;
+}
+.icon-con{
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    width: 20%;
+}
+.icon-id{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.rs{
+   font-size: medium;
+   font-weight: bold;
+}
+::placeholder{
+    color: white;
+}
